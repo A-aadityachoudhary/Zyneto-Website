@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+.hero-boy{
+    animation: verticalDir 3s infinite;
+   
+    
+
+}
+@keyframes verticalDir{
+    0%{
+        transform: translateY(0px);
+
+    }
+    25%{
+         transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0px);
+
+    }
+    75%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes forStrips{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.for-strips{
+    animation: forStrips linear 60s infinite;
+    white-space: nowrap;
+    display: inline-block;
+    width: max-content;
+    animation-delay: -10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ;
+     
+}
+
+@keyframes forStripsY{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(50%);
+    }
+}
+.for-strips-y{
+    animation: forStripsY linear 80s infinite;
+    white-space: nowrap;
+    display: inline-block;
+    width: max-content;
+    animation-delay: -10s;
+    
+}
+
+@media  (min-width: 800px) {
+.child {
+  animation: moveUp 7s linear infinite;
+  
+}
+
+}
+
+
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0%);
+  }
+
+  
+  100% {
+   transform: translateY(-100%);
+  }
+}
+
+
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
