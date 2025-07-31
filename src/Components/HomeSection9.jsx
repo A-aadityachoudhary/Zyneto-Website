@@ -3,7 +3,7 @@ import React from 'react'
 const HomeSection9 = () => {
   return (
     <div className='bg-sky-100 py-10 px-4'>
-      <p className=' text-3xl font-bold mb-3  md:text-center'>Our <span className='text-amber-600'>Blogs</span></p>
+      <p className=' text-4xl font-bold mb-3  md:text-center'>Our <span className='text-amber-600'>Blogs</span></p>
       <p className='text-xl text-gray-600 mb-4  md:text-center'>Explore the intersection of creativity and technology with our blog.</p>
       <div className='flex flex-row gap-10   overflow-x-auto flex-nowrap flex-shrink-0 scroll-smooth scrollbar-hidden  '>
         <div className='rounded-2xl cursor-pointer flex-nowrap flex-shrink-0 w-[300px]  p-4 bg-[#FFEAEA] hover:bg-[#F5CBCB]'>

@@ -28,7 +28,8 @@ const Header = () => {
       <div className='flex flex-col md:flex-row mx-4 md:mx-10 lg:mx-20  pt-30 md:pt-40 gap-20 md:gap-10 mb-8 sm:mb-14 lg:mb-8'>
         <div>
           <button className='flex mx-auto md:mx-0 text-amber-600 p-2 mb-4  rounded-2xl border border-amber-600'>Your Best Partner In</button>
-          <p className='text-white  text-5xl font-bold'>Transforming Your Ideas Into <span className='text-amber-600 border-r border-r-amber-600' ref={el} /></p>
+          <p className='text-white  text-5xl font-bold'>Transforming Your Ideas Into </p>
+          <p><span className='text-amber-600 text-5xl font-bold border-r border-r-amber-600' ref={el} /></p>
           <p className='text-white text-5xl font-bold mb-4'>Success</p>
           <p className='text-xl text-white mb-4'>From concept to execution, Zyneto Technologies is a web development company that delivers high-quality digital solutions.</p>
           <button className='flex mx-auto md:mx-0 px-3 py-2 text-lg  text-white bg-amber-600 cursor-pointer rounded-xl font-semibold'>Our Services</button>

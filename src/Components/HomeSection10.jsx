@@ -29,7 +29,7 @@ const HomeSection10 = () => {
             </div>
             <div className='mt-5'>
                 <label htmlFor="" className='text-white'>Message</label>
-                <input type="text" placeholder='Please type your message here...' className='rounded-xl w-full xl:w-xl   min-h-[150px] bg-white  border-none outline-none ' name="" id="" />
+                <input type="text" placeholder='Please type your message here...' className='rounded-xl w-full xl:w-2xl   min-h-[150px] bg-white  border-none outline-none ' name="" id="" />
             </div>
             <div className='mt-5 px-4 flex justify-between   bg-white h-13'>
                 

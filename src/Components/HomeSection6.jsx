@@ -70,7 +70,7 @@ const HomeSection6 = () => {
     ]
   return (
     <div className='bg-white pb-5'>
-      <p className='px-5 pb-5 text-center pt-15 text-[35px] font-bold text-black'>What Our Clients Say? Voices of Success</p>
+      <p className='px-5 pb-5 text-center pt-15 text-4xl font-bold text-black'>What Our Clients Say? Voices of Success</p>
       <p className='px-5 pb-10 text-center  text-[24px] font-bold text-gray-700'>These testimonials are not just words; they are the voices of success, reflecting the tangible impact our services have had on their businesses.</p>
        <Slider {...settings}>
         {reviews.map((review,index) => (

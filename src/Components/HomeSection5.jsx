@@ -10,7 +10,7 @@ const HomeSection5 = () => {
   return (
     <div className='bg-[#145962] overflow-hidden'>
       <div className='mt-8 mx-4 flex flex-col md:mx-auto '>
-        <p className='text-white text-3xl md:text-center font-bold mb-2'>Some glimpses of our <span className='text-amber-600'>Latest Work!</span></p>
+        <p className='text-white text-4xl md:text-center font-bold mb-2'>Some glimpses of our <span className='text-amber-600'>Latest Work!</span></p>
         <p className='text-white text-xl md:text-center mb-2'>These snapshots provide glimpses into the impactful projects we have undertaken,
             showcasing our commitment to innovation, design excellence, and digital success.</p>
       </div>
